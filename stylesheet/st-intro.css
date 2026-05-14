@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--dark);
 }
 
 body{
@@ -115,4 +114,31 @@ body{
   border-radius: 20px;
   border: none;
   box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+body{
+  background-color: var(--dark);
+}
+
+footer{
+  text-align: center;
+  color: var(--dark);
+  font-size: 20px;
+  padding: 2%;
+  
+  background-color: var(--light);
+  border: solid var(--dark);
+  
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+  }
+
+  p{
+    margin: 15px;
+    color: var(--dark);
+  }
+
+  
 }
